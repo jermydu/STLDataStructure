@@ -1261,4 +1261,15 @@ void CSTLDataStructureDlg::OnBnClickedButtonLambda()
 void CSTLDataStructureDlg::OnBnClickedButtonInitializerList()
 {
 	// TODO: 在此添加控件通知处理程序代码
+	
+	class A
+	{
+	public:
+		A() :arr{ 0,1,2,3,4 }
+		{
+
+		}
+	private:
+		int arr[5];
+	};
 }
