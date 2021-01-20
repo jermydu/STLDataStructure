@@ -127,6 +127,7 @@ BEGIN_MESSAGE_MAP(CSTLDataStructureDlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON_LAMBDA, &CSTLDataStructureDlg::OnBnClickedButtonLambda)
 	ON_BN_CLICKED(IDC_BUTTON_THREAD, &CSTLDataStructureDlg::OnBnClickedButtonThread)
 	ON_BN_CLICKED(IDC_BUTTON_INITIALIZER_LIST, &CSTLDataStructureDlg::OnBnClickedButtonInitializerList)
+	ON_BN_CLICKED(IDC_BUTTON_ATTRIBUTE, &CSTLDataStructureDlg::OnBnClickedButtonAttribute)
 END_MESSAGE_MAP()
 
 // CSTLDataStructureDlg 消息处理程序
@@ -1272,4 +1273,10 @@ void CSTLDataStructureDlg::OnBnClickedButtonInitializerList()
 	private:
 		int arr[5];
 	};
+}
+
+
+void CSTLDataStructureDlg::OnBnClickedButtonAttribute()
+{
+	// TODO: 在此添加控件通知处理程序代码
 }
